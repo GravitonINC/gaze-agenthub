@@ -8,5 +8,11 @@ data/
 # Secrets
 .env
 
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
 # OS
 .DS_Store
